@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -25,5 +26,5 @@ body {
 }
 
 .btn-header {
-  @apply border-[1px] border-slate-300 text-sm rounded-2xl w-14 h-8 text-slate-400 center;
+  @apply border-[1px] border-slate-300 text-sm rounded-2xl w-16 h-8 text-slate-400 center;
 }

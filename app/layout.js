@@ -23,11 +23,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5211508376773772"
-        crossorigin="anonymous"></script>
+        crossOrigin="anonymous"></script>
+        <link rel="icon" href="/logo_dark.png"/>
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} >
         {children}
       </body>
     </html>

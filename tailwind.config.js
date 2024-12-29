@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Jura: ["Jura", "serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -14,5 +17,6 @@ module.exports = {
     },
   },
   plugins: [
-    require('daisyui'),],
+    require('daisyui'),
+  ],
 };
