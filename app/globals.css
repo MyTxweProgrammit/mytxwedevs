@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.center {
+  @apply flex items-center justify-center;
+}
+
+.btn-header {
+  @apply border-[1px] border-slate-300 text-sm rounded-2xl w-14 h-8 text-slate-400 center;
+}
