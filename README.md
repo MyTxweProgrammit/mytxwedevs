@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Welcome to my first project
+Hi there! This is *MyTxweDEVS* admin of the website. This is my portfolio website that I made It by my hand.
 
-## Getting Started
+## What do I use framework to create and style?
+I use **NextJS** to create this website and other playground in the website. I work with **TailwindCSS** and **DaisyUI** to styling better than CSS. So you can see my footer widget that contain a component of DaisyUI.
 
-First, run the development server:
+## Where to host website?
+I put all project to **Vercel** and host it to a website!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## How It work?
+This website will share about my profile and the other in home page and blog page. But if you follow this project Website and stay with us for a long time in the future I will create a playground that you need to funny.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## See my Website
+[https://mytxwedevs.vercel.app](https://mytxwedevs.vercel.app)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Follow Me!
+**Facebook :** [Maytee Sukchaung](https://www.facebook.com/profile.php?id=100083588705916)  
+**Line ID:** [maytee1881](https://mytxwedevs.vercel.app)  
+**Instagram :** [txwe18_](https://www.instagram.com/txwe18_/)  
+**Phone Number :** [+66659545774](tel:0659545774)
