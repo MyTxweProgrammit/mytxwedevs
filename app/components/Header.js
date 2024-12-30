@@ -10,7 +10,7 @@ export default function Blog() {
             <div className="border-2 border-slate-100 w-full h-20 shadow-xl center gap-[20%] bg-white
             max-[450px]:w-[80%] max-[450px]:h-16 max-[450px]:rounded-[30px] max-[450px]:gap-[5%]">
                 <Link href="/" className="flex gap-[15%] items-center cursor-pointer">
-                    <Image src={logo_light} width={35} height={35} alt="MyTxweDEVS's Logo"/>
+                    <Image src={logo_light} width={35} height={35} alt="MyTxweDEVS's Logo" className="animate-spin-slow"/>
                     <div className="bg-gradient-to-r from-[#8F8BFF] to-[#1D0994] bg-clip-text">
                         <p className="max-[450px]:hidden font-Jura text-xl font-bold text-transparent">MyTxweDEVS</p>
                     </div>

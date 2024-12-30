@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'spin-slow': 'spin 4s linear infinite',
+      },
       fontFamily: {
         Jura: ["Jura", "serif"],
         Noto: ["Noto Sans", "serif"],
