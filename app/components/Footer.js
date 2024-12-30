@@ -7,7 +7,7 @@ export default function Footer() {
         <footer className="mt-[500px] footer  bg-neutral text-neutral-content p-10">
             <aside>
                 <Image src={logo_dark} width={50} height={50} alt="Footer's Logo"/>
-                <p>
+                <p className="font-Jura">
                     MyTxweDEVS
                     <br />
                     Providing reliable tech since 2024

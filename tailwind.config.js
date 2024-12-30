@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Jura: ["Jura", "serif"],
+        Noto: ["Noto Sans", "serif"],
       },
       colors: {
         background: "var(--background)",
