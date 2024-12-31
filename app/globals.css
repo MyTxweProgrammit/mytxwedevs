@@ -4,24 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .center {
   @apply flex items-center justify-center;
 }
@@ -33,5 +15,5 @@ body {
 .btn-header {
   @apply border-[1px] border-slate-300 text-sm rounded-2xl w-24 h-8 text-slate-500 center
   duration-300 hover:bg-black hover:text-slate-50 hover:border-0 hover:scale-110 font-Jura
-  max-[450px]:w-20;
+  max-[450px]:w-20 min-[841px]:w-[60px];
 }

@@ -9,7 +9,7 @@ export default function Blog() {
             <Header />
             <div className="w-full flex justify-center">
                 <div className="w-full">
-                    <section className="shadow-lg border-[1px] border-slate-300 w-[410px] mx-auto mt-[20px] rounded-2xl max-[450px]:w-[250px]">
+                    <section className="shadow-lg border-[1px] border-slate-300 w-[410px] mx-auto mt-[20px] rounded-2xl max-[450px]:w-[250px] dark:bg-black">
                         <div className="flex items-center gap-[20px] ml-[20px] mt-[20px] max-[450px]:gap-[0px]">
                             <div className="center gap-[20px] max-[450px]:gap-[10px]">
                                 <div className="overflow-hidden rounded-full w-[60px] h-[60px] max-[450px]:w-[40px] max-[450px]:h-[40px]">

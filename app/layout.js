@@ -1,18 +1,6 @@
-import localFont from "next/font/local";
 import "./globals.css";
 import Adsense from "./components/Adsense";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-  
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+import Script from "next/script";
 
 export const metadata = {
   title: "MyTxweDEVS - Home",
@@ -26,7 +14,7 @@ export default function RootLayout({ children }) {
         <Adsense pId="5211508376773772"/>
         <link rel="icon" href="/logo_dark.png"/>
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} >
+      <body>
         {children}
       </body>
     </html>
