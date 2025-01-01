@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <div>
       <Header />
-      Hello World
-      {/* <AdBanner dataAdFormat="auto" dataFullWidthResponsive={ true } dataAdSlot="7243822971"/> */}
       <Footer/>
     </div>
   );
 }
+
+{/* <AdBanner dataAdFormat="auto" dataFullWidthResponsive={ true } dataAdSlot="7243822971"/> */}

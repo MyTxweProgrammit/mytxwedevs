@@ -1,6 +1,5 @@
 import "./globals.css";
 import Adsense from "./components/Adsense";
-import Script from "next/script";
 
 export const metadata = {
   title: "MyTxweDEVS - Home",

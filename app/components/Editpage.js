@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function EditPage() {
     return (
-        <Link href="https://github.com/MyTxweProgrammit/mytxwedevs" className="min-[840px]:hidden group sticky top-[530px] left-[20px] gap-[7px] center w-[140px] py-[4px] rounded-[20px] bg-slate-200 shadow-xl duration-300 hover:scale-[1.1] relative overflow-hidden
+        <Link href="https://github.com/MyTxweProgrammit/mytxwedevs" className="min-[840px]:hidden group sticky top-[550px] left-[20px] gap-[7px] center w-[140px] py-[4px] rounded-[20px] bg-slate-200 shadow-xl duration-300 hover:scale-[1.1] relative overflow-hidden
         max-[340px]:rounded-full max-[340px]:w-max max-[340px]:h-max max-[340px]:px-[5px] max-[340px]:py-[5px]">
             <div className="absolute w-10 h-10 translate-x-[-100px] group-hover:w-[500px] duration-700 bg-black"></div>
             <p className="font-Jura text-[12px] text-black font-bold group-hover:text-white z-50 duration-700 max-[340px]:hidden">Edit This Page</p>

@@ -32,7 +32,7 @@ export default function Blog() {
                             <p className="font-Jura text-[10px] text-black block translate-x-[10px] max-[450px]:text-[9px]">Image from Gemini 1.5 Flash</p>
                         </div>
                         <div className="min-[450px]:hidden mb-[10px] h-6 flex items-center justify-around">
-                            <div className="font-Jura text-[10px] max-[450px]:text-[9px] text-center">December 30, 2024 </div>
+                            <div className="font-Jura text-[10px] max-[450px]:text-[9px] text-center">January 1, 2024 </div>
                             <button className="font-Jura text-[10px] max-[450px]:text-[9px] px-[4px] py-[3px] bg-black text-white duration-300 hover:bg-white hover:border-[1px] hover:border-black hover:text-black hover:font-extrabold">
                                 Read More              
                             </button>

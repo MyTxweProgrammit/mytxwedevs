@@ -7,9 +7,9 @@ import EditPage from "./Editpage";
 export default function Blog() {
     return (
         <>
-            <div className="w-full center max-[450px]:pt-[20px] sticky top-0">
-                <div className="border-2 border-slate-100 w-full h-20 shadow-xl center gap-[20%] bg-white
-                max-[450px]:w-[80%] max-[450px]:h-16 max-[450px]:rounded-[30px] max-[450px]:gap-[5%]">
+            <div className="w-full center max-[450px]:pt-[20px] sticky top-0 z-50">
+                <div className="w-full h-20 shadow-xl center gap-[20%] bg-glass dark:bg-black
+                max-[450px]:w-[80%] max-[450px]:h-16 max-[450px]:rounded-[30px] max-[450px]:gap-[5%] backdrop-blur-xl">
                     <Link href="/" className="flex gap-[15%] items-center cursor-pointer">
                         <Image src={logo_light} width={35} height={35} alt="MyTxweDEVS's Logo" className="animate-spin-slow"/>
                         <div className="bg-gradient-to-r from-[#8F8BFF] to-[#1D0994] bg-clip-text">
@@ -34,8 +34,8 @@ export default function Blog() {
                                         <span className="badge badge-primary">New</span>
                                     </Link>
                                 </li>
-                                <li><Link href="/">Analysis</Link></li>
-                                <li><Link href="/">About Us</Link></li>
+                                <li><Link href="/">Sign In</Link></li>
+                                <li><Link href="/">Sign Up</Link></li>
                             </ul>
                         </div>
                         <Link href="https://github.com/MyTxweProgrammit/mytxwedevs" className="max-[840px]:hidden">
